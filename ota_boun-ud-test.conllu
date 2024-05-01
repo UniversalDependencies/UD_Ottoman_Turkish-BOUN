@@ -2900,7 +2900,7 @@
 2	harab	harab	ADJ	Adj	_	3	amod	_	_
 3	kafesin	kafes	NOUN	_	Case=Gen|Number=Sing|Person=3	4	nmod:poss	_	_
 4	anahtarı	anahtar	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nsubj	_	_
-5	orada	ora	PRON	_	Case=Loc|Number=Sing|Person=3|PronType=Loc	9	obl	_	_
+5	orada	ora	PRON	_	Case=Loc|Number=Sing|Person=3	9	obl	_	_
 6	konsolun	konsol	NOUN	_	Case=Gen|Number=Sing|Person=3	7	nmod:poss	_	_
 7	içindeki	iç	ADJ	NAdj	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	amod	_	_
 8	küçük	küçük	ADJ	Adj	_	9	amod	_	_
@@ -2931,7 +2931,7 @@
 3	bahçe	bahçe	NOUN	_	Case=Nom|Number=Sing|Person=3	15	nsubj	_	TokenRange=779:784
 4	ve	ve	CCONJ	_	_	5	cc	_	TokenRange=785:787
 5	saatler	saat	NOUN	_	Case=Nom|Number=Plur|Person=3	3	conj	_	TokenRange=788:795
-6	orada	ora	PRON	_	Case=Loc|Number=Sing|Person=3|PronType=Loc	7	obl	_	TokenRange=796:801
+6	orada	ora	PRON	_	Case=Loc|Number=Sing|Person=3	7	obl	_	TokenRange=796:801
 7	açan	aç	VERB	Ptcp	Polarity=Pos|Tense=Pres|VerbForm=Part	15	acl	_	TokenRange=802:806
 8	kâh	kâh	CCONJ	_	_	9	cc:preconj	_	TokenRange=807:810
 9	sağa	sağ	NOUN	_	Case=Nom|Number=Sing|Person=3	12	obl	_	TokenRange=811:815
@@ -4506,7 +4506,7 @@
 11	lüzumundan	lüzum	NOUN	_	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	obl	_	_
 12	fazla	fazla	ADV	_	_	13	advmod	_	_
 13	ezilmiş	ez	VERB	Ptcp	Aspect=Imp|Number=Sing|Person=3|Polarity=Pos|Voice=Pass	14	acl	_	_
-14	dimağımı	dimağ	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	16	obl:cau	_	_
+14	dimağımı	dimağ	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	16	obl	_	_
 15	biraz	biraz	ADV	_	_	16	advmod	_	_
 16	dinlendirmek	dinlen	VERB	Vnoun	Case=Nom|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun|Voice=Cau	44	advcl	_	_
 17	,	,	PUNCT	Comma	_	23	punct	_	_
@@ -5342,7 +5342,7 @@
 22	anlamış	anla	VERB	Ptcp	Evident=Nfh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	TokenRange=3483:3490
 23-24	değillerdir	_	_	_	_	_	_	_	SpaceAfter=No|TokenRange=3491:3502
 23	değiller	değil	AUX	Overt	Case=Nom|Number=Plur|Person=3	22	aux	_	_
-24	dir	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	22	cop	_	_
+24	dir	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	22	cop	_	_
 25	.	.	PUNCT	Stop	_	22	punct	_	SpacesAfter=\r\n|TokenRange=3502:3503
 
 # sent_id = jan_ae_68
@@ -6459,7 +6459,7 @@
 
 # sent_id = jan_ae_60
 # text = Orada bir biçare varmış , yemek yiyemiyormuş , hasta imiş halk bunları düşünür , görür mü ?
-1	Orada	ora	PRON	_	Case=Loc|Number=Sing|Person=3|PronType=Loc	4	obl	_	_
+1	Orada	ora	PRON	_	Case=Loc|Number=Sing|Person=3	4	obl	_	_
 2	bir	bir	DET	Indef	_	3	det	_	_
 3	biçare	biçare	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nsubj	_	_
 4	varmış	var	VERB	_	Evident=Nfh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
@@ -6837,7 +6837,7 @@
 2	Haydi	haydi	INTJ	_	_	4	discourse	_	_
 3	,	,	PUNCT	Comma	_	4	punct	_	_
 4	defol	defol	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
-5	oradan	ora	PRON	_	Case=Abl|Number=Sing|Person=3|PronType=Loc	4	obl	_	_
+5	oradan	ora	PRON	_	Case=Abl|Number=Sing|Person=3	4	obl	_	_
 6	...	...	PUNCT	TDots	_	8	punct	_	_
 7	Miskin	miskin	ADJ	Adj	_	8	amod	_	_
 8	köpek	köpek	NOUN	_	Case=Nom|Number=Sing|Person=3	4	vocative	_	_
@@ -7070,7 +7070,7 @@
 7	alan	al	VERB	Ptcp	Polarity=Pos|Tense=Pres|VerbForm=Part	8	csubj	_	TokenRange=3686:3690
 8-9	camidir	_	_	_	_	_	_	_	SpaceAfter=No|TokenRange=3691:3698
 8	cami	cami	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
-9	dir	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	8	cop	_	_
+9	dir	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	8	cop	_	_
 10	.	.	PUNCT	Stop	_	8	punct	_	SpacesAfter=\r\n|TokenRange=3698:3699
 
 # sent_id = jan_ae_108
@@ -7397,7 +7397,7 @@
 1	Fakat	fakat	CCONJ	_	_	2	cc	_	_
 2	eğlenemeyeceğim	eğlen	VERB	Ptcp	_	0	root	_	_
 3	seninle	sen	PRON	Pers	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=2	5	obl	_	_
-4	burada	bura	PRON	_	Case=Loc|Number=Sing|Person=3|PronType=Loc	5	obl	_	_
+4	burada	bura	PRON	_	Case=Loc|Number=Sing|Person=3	5	obl	_	_
 5	otursak	otur	VERB	_	Case=Nom|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	2	advcl	_	_
 6	.	.	PUNCT	Stop	_	5	punct	_	_
 

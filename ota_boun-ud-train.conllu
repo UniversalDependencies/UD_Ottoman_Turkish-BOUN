@@ -375,7 +375,7 @@
 46	üstüne	üst	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	47	iobj	_	_
 47	çekerek	çek	VERB	Conv	Aspect=Prog|Polarity=Pos|VerbForm=Conv	49	advcl	_	_
 48	,	,	PUNCT	Comma	_	47	punct	_	_
-49	titrediği	titre	VERB	Ptcp	Aspect=Perf|Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	50	csubj:pass	_	_
+49	titrediği	titre	VERB	Ptcp	Aspect=Perf|Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	50	csubj	_	_
 50	görülüyor	gör	VERB	_	Aspect=Imp|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|Voice=Pass	0	root	_	_
 51	!	!	PUNCT	Excl	_	50	punct	_	_
 52	...	...	PUNCT	TDots	_	50	punct	_	_
