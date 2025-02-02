@@ -539,37 +539,31 @@
 7	.	.	PUNCT	Stop	_	5	punct	_	.
 
 # sent_id = nes_tn_9
-# text_arabic = ... صوكره بر ده بو قياسى حالده صالح و يا زهره خانم افندى ايله رساله‌سنك حيات نسوان محرره مشهوره‌سى اَراسنده  ياپيكز
-# text = Sonra bir de bu kıyası Halide Salih veya Zühre Hanımefendi ile ( Annales ) risalesinin hayat-ı nisvan muharrir-i meşhuresi Madam ( Yvonne Sarcey ) arasında yapınız . . .
-1	Sonra	sonra	ADV	_	_	26	advmod	_	صوكره
-2	bir	bir	ADV	_	_	26	advmod	_	بر
+# text_arabic = ... صوكره  بر ده  بو قياسى  حالده  صالح و  يا زهره  خانم افندى  ايله  رساله سنك حيات نسوان  محرره  مشهوره سى  اَراسنده  ياپيكز
+# text = Sonra bir de bu kıyası Halide Salih veya Zühre Hanımefendi ile Annales risalesinin hayat-ı nisvan muharrir-i meşhuresi Madam Yvonne Sarcey arasında yapınız ...
+1	Sonra	sonra	ADV	_	_	22	advmod	_	صوكره
+2	bir	bir	ADV	_	_	22	advmod	_	بر
 3	de	de	PART	Emph	_	2	advmod:emph	_	ده
 4	bu	bu	DET	Demons	_	5	det	_	بو
-5	kıyası	kıyası	ADJ	_	Case=Nom|Number=Sing|Person=3	26	obj	_	قياسى
-6	Halide	Halide	PROPN	_	Case=Loc|Number=Sing|Person=3	25	nmod:poss	_	حالده
+5	kıyası	kıyası	ADJ	_	Case=Nom|Number=Sing|Person=3	22	obj	_	قياسى
+6	Halide	Halide	PROPN	_	Case=Loc|Number=Sing|Person=3	21	nmod:poss	_	حالده
 7	Salih	Salih	PROPN	_	Case=Nom|Number=Sing|Person=3	6	flat	_	صالح
 8	veya	veya	CCONJ	_	_	9	cc	_	و يا
 9	Zühre	Zühre	PROPN	_	Case=Nom|Number=Sing|Person=3	6	conj	_	زهره
 10	Hanımefendi	Hanimefendi	PROPN	_	Case=Nom|Number=Sing|Person=3	9	flat	_	خانم افندى
-11	ile	ile	CCONJ	_	_	20	cc	_	ايله
-12	(	(	PUNCT	OPar	_	13	punct	_	_
-13	Annales	Annales	PROPN	_	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
-14	)	)	PUNCT	CPar	_	13	punct	_	_
-15	risalesinin	risale	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	18	nmod:poss	_	رساله‌سنك
-16	hayat-ı	hayat-ı	NOUN	_	Case=Nom|Number=Sing|Person=3	18	nmod:poss	_	حيات
-17	nisvan	nisvan	NOUN	_	Case=Nom|Number=Sing|Person=3	16	nmod:poss	_	نسوان
-18	muharrir-i	muharrir	NOUN	_	Case=Nom|Number=Sing|Person=3	20	acl	_	محرره
-19	meşhuresi	meşhure	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	18	amod	_	مشهوره‌سى
-20	Madam	Madam	PROPN	_	Case=Nom|Number=Sing|Person=3	6	conj	_	_
-21	(	(	PUNCT	OPar	_	22	punct	_	_
-22	Yvonne	Yvonne	PROPN	_	Case=Nom|Number=Sing|Person=3	20	appos	_	_
-23	Sarcey	Sarcey	PROPN	_	Case=Nom|Number=Sing|Person=3	22	flat	_	_
-24	)	)	PUNCT	CPar	_	22	punct	_	_
-25	arasında	ara	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	26	obl	_	اَراسنده
-26	yapınız	yap	VERB	_	Mood=Imp|Number=Plur|Person=2|Polarity=Pos	0	root	_	ياپيكز
-27	.	.	PUNCT	Stop	_	26	punct	_	.
-28	.	.	PUNCT	Stop	_	26	punct	_	.
-29	.	.	PUNCT	Stop	_	26	punct	_	.
+11	ile	ile	CCONJ	_	_	16	cc	_	ايله
+12	Annales	Annales	PROPN	_	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
+13	risalesinin	risale	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	16	nmod:poss	_	رساله سنك
+14	hayat-ı	hayat-ı	NOUN	_	Case=Nom|Number=Sing|Person=3	16	nmod:poss	_	حيات
+15	nisvan	nisvan	NOUN	_	Case=Nom|Number=Sing|Person=3	14	nmod:poss	_	نسوان
+16	muharrir-i	muharrir	NOUN	_	Case=Nom|Number=Sing|Person=3	18	acl	_	محرره
+17	meşhuresi	meşhure	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	16	amod	_	مشهوره سى
+18	Madam	Madam	PROPN	_	Case=Nom|Number=Sing|Person=3	6	conj	_	_
+19	Yvonne	Yvonne	PROPN	_	Case=Nom|Number=Sing|Person=3	18	appos	_	_
+20	Sarcey	Sarcey	PROPN	_	Case=Nom|Number=Sing|Person=3	19	flat	_	_
+21	arasında	ara	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	22	obl	_	اَراسنده
+22	yapınız	yapı	VERB	_	Mood=Imp|Number=Plur|Person=2|Polarity=Pos	0	root	_	ياپيكز
+23	...	...	PUNCT	Stop	_	22	punct	_	_
 
 # sent_id = mus_ah_28
 # text_arabic = . باقر اوقلى مناره‌لر , كونشى اك اول كورمك ايچون هوالرده‌ يوكسلير
@@ -721,48 +715,48 @@
 3	.	.	PUNCT	Stop	_	2	punct	_	.
 
 # sent_id = mus_ah_5
-# text_arabic = . معدندن صاغلام قپاقلر آلتنده‌ محفوط طوتيلان اسكى معصوم ساعتلرك يلقوانلرى يورغون بوجك آياقلرى طرزنده‌ , كونشك , سما اوزرنده‌كى سيريله‌ آز چوق مناسبتدار بر حسابه‌ تبعا , مينه‌نك رقملرى اوزرنده‌ يورورلر و صاحبلرينى زماندن تقريبى بر صحتله‌  خبردار ايدرلردى .
-# text = Madenden sağlam kapaklar altında Mahfuz tutulan eski masum saatlerin Yelkovanları yorgun böcek ayakları tarzında güneşin Sema üzerindeki seyri ile az çok münasebet tabian Mine'nin rakamları üzerinde yürürler ve sahiplerini zamandan takribi bir sıhhatle haberdardar ederlerdi.
+# text_arabic = . معدندن  صاغلام  قپاقلر  آلتنده‌  محفوط  طوتيلان  اسكى  معصوم  ساعتلرك  يلقوانلرى  يورغون  بوجك  آياقلرى  طرزنده‌  ,  كونشك  , سما  اوزرنده‌كى  سيريله‌  آز  چوق  مناسبتدار  بر  حسابه‌  تبعا , مينه‌نك  رقملرى  اوزرنده‌  يورورلر  و صاحبلرينى  زماندن  تقريبى  بر  صحتله‌  خبردار  ايدرلردى  .
+# text = Madenden sağlam kapaklar altında mahfuz tutulan eski masum saatlerin yelkovanları yorgun böcek ayakları tarzında güneşin sema üzerindeki seyri ile az çok münasebetdar bir hesaba tabian Mine'nin rakamları üzerinde yürürler ve sahiplerini zamandan takribi bir sıhhatle haberdar ederlerdi.
 1	Madenden	maden	NOUN	_	Case=Abl|Number=Sing|Person=3	3	nmod	_	معدندن|TokenRange=485:493
 2	sağlam	sağlam	ADJ	Adj	_	3	amod	_	صاغلام|TokenRange=494:500
 3	kapaklar	kapak	NOUN	_	Case=Nom|Number=Plur|Person=3	4	nmod:poss	_	قپاقلر|TokenRange=501:509
 4	altında	alt	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	obl	_	آلتنده‌|TokenRange=510:517
-5	Mahfuz	mahfuz	NOUN	_	Case=Nom|Number=Sing|Person=3	9	acl	_	محفوط|TokenRange=518:524
+5	mahfuz	mahfuz	NOUN	_	Case=Nom|Number=Sing|Person=3	9	acl	_	محفوط|TokenRange=518:524
 6	tutulan	tut	VERB	Ptcp	Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass	5	compound	_	طوتيلان|TokenRange=525:532
 7	eski	eski	ADJ	Adj	_	9	amod	_	اسكى|TokenRange=533:537
 8	masum	masum	ADJ	Adj	_	9	amod	_	معصوم|TokenRange=538:543
 9	saatlerin	saat	NOUN	_	Case=Gen|Number=Plur|Person=3	10	nmod:poss	_	ساعتلرك|TokenRange=544:553
-10	Yelkovanları	Yelkovan	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	28	nsubj	_	يلقوانلرى|TokenRange=554:566
+10	yelkovanları	yelkovan	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	29	nsubj	_	يلقوانلرى|TokenRange=554:566
 11	yorgun	yorgun	ADJ	Adj	_	13	amod	_	يورغون|TokenRange=567:573
 12	böcek	böcek	NOUN	_	Case=Nom|Number=Sing|Person=3	13	nmod:poss	_	بوجك|TokenRange=574:579
 13	ayakları	ayak	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	14	nmod:poss	_	آياقلرى|TokenRange=580:588
-14	tarzında	tarz	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	28	obl	_	طرزنده‌|TokenRange=589:597
-15	güneşin	Güneş	NOUN	_	Case=Gen|Number=Sing|Person=3	17	nmod:poss	_	كونشك|TokenRange=598:605
-16	Sema	sema	NOUN	_	Case=Nom|Number=Sing|Person=3	17	nmod:poss	_	سما|TokenRange=606:610
-17-18	üzerindeki	_	_	_	_	_	_	_	اوزرنده‌كى|TokenRange=611:621
-17	üzerinde	Üzer	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	19	nmod	_	_
-18	ki	ki	PART	Attr	_	17	dep	_	_
-19	seyri	seyir	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	24	obl	_	سيريله‌|TokenRange=622:627
-20	ile	ile	CCONJ	_	_	19	case	_	TokenRange=628:631
-21	az	az	ADV	Adj	_	23	advmod	_	آز|TokenRange=632:634
-22	çok	çok	ADJ	Adj	_	21	fixed	_	چوق|TokenRange=635:638
-23	münasebet	münasebet	NOUN	_	Case=Nom|Number=Sing|Person=3	24	obl	_	مناسبت|TokenRange=639:648
-24	tabian	tabian	ADJ	Adj	_	28	advcl	_	تبعا|TokenRange=649:655
-25	Mine'nin	Mine	PROPN	_	Case=Gen|Number=Sing|Person=3	26	nmod:poss	_	مينه‌نك|TokenRange=656:664
-26	rakamları	rakam	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	27	nmod:poss	_	رقملرى|TokenRange=665:674
-27	üzerinde	Üzer	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	28	obl	_	اوزرنده‌|TokenRange=675:683
-28	yürürler	yürü	VERB	_	Aspect=Hab|Number=Plur|Person=3|Polarity=Pos|Tense=Pres	0	root	_	يورورلر|TokenRange=684:692
-29	ve	ve	CCONJ	_	_	35	cc	_	و|TokenRange=693:695
-30	sahiplerini	sahip	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	35	obj	_	صاحبلرينى|TokenRange=696:707
-31	zamandan	zaman	NOUN	_	Case=Abl|Number=Sing|Person=3	32	obl	_	زماندن|TokenRange=708:716
-32	takribi	takrip	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	34	amod	_	تقريبى|TokenRange=717:724
-33	bir	bir	DET	Indef	_	34	det	_	بر|TokenRange=725:728
-34	sıhhatle	sıhhat	NOUN	_	Case=Ins|Number=Sing|Person=3	35	obl	_	صحتله‌|TokenRange=729:737
-35	haberdardar	haberdardar	NOUN	_	Case=Nom|Number=Sing|Person=3	28	conj	_	خبردار|TokenRange=738:749
-36-37	ederlerdi	_	_	_	_	_	_	_	ايدرلردى|SpaceAfter=No|TokenRange=750:759
-36	ederler	et	VERB	Ptcp	Aspect=Hab|Polarity=Pos|VerbForm=Part	35	compound:lvc	_	_
-37	di	y	AUX	Zero	Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	36	cop	_	_
-38	.	.	PUNCT	Stop	_	35	punct	_	.|SpacesAfter=\r\n|TokenRange=759:760
+14	tarzında	tarz	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	29	obl	_	طرزنده‌|TokenRange=589:597
+15	güneşin	güneş	NOUN	_	Case=Gen|Number=Sing|Person=3	17	nmod:poss	_	كونشك|TokenRange=598:605
+16	sema	sema	NOUN	_	Case=Nom|Number=Sing|Person=3	17	nmod:poss	_	سما|TokenRange=606:610
+17	üzerindeki	üzer	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	18	amod	_	اوزرنده‌
+18	seyri	seyir	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	22	obl	_	سيری|TokenRange=622:627
+19	ile	ile	CCONJ	_	_	18	case	_	یلە|TokenRange=628:631
+20	az	az	ADV	Adj	_	22	advmod	_	آز|TokenRange=632:634
+21	çok	çok	ADJ	Adj	_	20	fixed	_	چوق|TokenRange=635:638
+22	münasebetdar	münasebet	NOUN	_	Case=Nom|Number=Sing|Person=3	24	obl	_	مناسبتدار|TokenRange=639:648
+23	bir	bir	DET	Indef	_	24	det	_	بر
+24	hesaba	hesap	NOUN	_	Case=Dat|Number=Sing|Person=3	25	obj	_	حسابه‌
+25	tabian	tabi	NOUN	_	_	28	obl	_	تبعا
+26	Mine'nin	Mine	PROPN	_	_	27	nmod:poss	_	مينه‌نك
+27	rakamları	rakam	NOUN	_	_	28	nmod:poss	_	رقملرى
+28	üzerinde	üzer	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	29	obl	_	اوزرنده‌
+29	yürürler	yürü	VERB	_	Aspect=Hab|Number=Plur|Person=3|Polarity=Pos|Tense=Pres	0	root	_	يورورلر
+30	ve	ve	CCONJ	_	_	36	cc	_	و
+31	sahiplerini	sahip	NOUN	_	_	36	obj	_	صاحبلرينى
+32	zamandan	zaman	DET	Indef	_	36	iobj	_	زماندن
+33	takribi	takrip	NOUN	_	Case=Ins|Number=Sing|Person=3	35	amod	_	تقريبى
+34	bir	bir	DET	Indef	_	35	det	_	بر
+35	sıhhatle	sıhhat	NOUN	_	_	36	nmod	_	صحتله‌
+36	haberdar	haber	NOUN	_	_	29	conj	_	خبردار
+37-38	ederlerdi	_	_	_	_	_	_	_	ايدرلردى|SpaceAfter=No
+37	ederler	et	VERB	Ptcp	Aspect=Hab|Number=Plur|Person=3|Polarity=Pos|Tense=Pres	36	compound:lvc	_	_
+38	di	y	AUX	Zero	Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	37	cop	_	_
+39	.	.	PUNCT	Stop	_	36	punct	_	.
 
 # sent_id = meh_ah_67
 # text_arabic = . ايشته بر سنه صوكرا قارشيسنده بوله‌جغى بديعه قوجه‌سنك ده كنديسيله هم روح , هم فكر اوله‌جغنى اكلاريه‌جق و ياديرغامه‌يه‌جقدى
@@ -2110,28 +2104,71 @@
 9	...	...	PUNCT	TDots	_	7	punct	_	...
 
 # sent_id = jan_ae_37
-# text_arabic = ! حقيقت , دالغه‌لرى بولوتلرله اوپوشن , كوپوكلرى ضيالره رقابت ايدن عمانلر ؛ بولوتلريله طاغلرى قويننده صيقان , شمشكلريله شيطانلرك كوزلرينى قماشديران اسمانلرنه قدر  تصور ايدلسه بونلرك مناظر عظمت اَراسنه فكراً تقرب بيله قابل اوله‌مايه‌جغى كبى نوع بشر دينيلن عالم ذى حياتك ده تعاقب امواج احتياجاتنى , تهاجم سحائب تفكراتنى كورمك ايچين دريالرينك اعماق مظلمه‌سنده يوزمكدن , سمالرينك اًفاق نامتناهيسنه اوچمقدن باشقه چاره يوقدر
-# text = Hakikat , dalgaları bulutlarla öpüşen , köpükleri ziyâlara rekabet eden ummanlar ; bulutlarıyla dağları koynunda sıkan , şimşekleriyle şeytanların gözlerini
-1	Hakikat	hakikat	NOUN	_	Case=Nom|Number=Sing|Person=3	11	nsubj	_	حقيقت
-2	,	,	PUNCT	Comma	_	11	punct	_	,
-3	dalgaları	dalga	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	5	obj	_	دالغه‌لرى
+# text_arabic = ! حقيقت ,  دالغه لرى  بولوتلرله  اوپوشن ,  كوپوكلرى  ضيالره رقابت  ايدن عمانلر ؛  بولوتلريله طاغلرى  قويننده  صيقان ,  شمشكلريله  شيطانلرك  كوزلرينى  قماشديران  اسمانلرنه  قدر   تصور ايدلسه  بونلرك  مناظر  عظمت  اَراسنه  فكراً  تقرب  بيله  قابل  اوله مايه جغى  كبى  نوع  بشر  دينيلن  عالم  ذى حياتك ده  تعاقب  امواج  احتياجاتنى ,  تهاجم  سحائب  تفكراتنى  كورمك  ايچين  دريالرينك  اعماق  مظلمه سنده  يوزمكدن ,  سمالرينك  اًفاق  نامتناهيسنه  اوچمقدن  باشقه  چاره  يوقدر!
+# text = Hakikat , dalgaları bulutlarla öpüşen , köpükleri ziyalara rekabet eden ummanlar ; bulutlarıyla dağları koynunda sıkan , şimşekleriyle şeytanların gözlerini kamaştıran asumanlar ne kadar tasavvur edilse bunların menazır-ı azamet-ârâsına fikren takarrüb bile kabil olamayacağı gibi nev-i beşer denilen alem-i zî-hayatın da teakub-ı emvac-ı ihtiyacatını , tehacüm-i sehaib-i tefekküratını görmek için deryalarının a'mak-ı muzlimesinde yüzmekten, semalarının afak-ı na-mütenahisine uçmaktan başka çare yoktur!
+1	Hakikat	hakikat	ADV	_	_	62	advmod	_	حقيقت
+2	,	,	PUNCT	Comma	_	62	punct	_	,
+3	dalgaları	dalga	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	5	obj	_	دالغه لرى
 4	bulutlarla	bulut	NOUN	_	Case=Ins|Number=Plur|Person=3	5	obl	_	بولوتلرله
 5	öpüşen	öpüş	VERB	Ptcp	Polarity=Pos|Tense=Pres|VerbForm=Part	11	acl	_	اوپوشن
 6	,	,	PUNCT	Comma	_	9	punct	_	,
 7	köpükleri	köpük	NOUN	_	Case=Acc|Number=Plur|Person=3	9	obj	_	كوپوكلرى
-8	ziyâlara	ziyâ	NOUN	_	Case=Dat|Number=Plur|Person=3	9	obl	_	ضيالره
+8	ziyalara	ziya	NOUN	_	Case=Dat|Number=Plur|Person=3	9	obl	_	ضيالره
 9	rekabet	rekabet	NOUN	_	Case=Nom|Number=Sing|Person=3	5	conj	_	رقابت
 10	eden	et	VERB	Ptcp	Polarity=Pos|Tense=Pres|VerbForm=Part	9	compound:lvc	_	ايدن
-11	ummanlar	umman	NOUN	_	Case=Nom|Number=Plur|Person=3	0	root	_	عمانلر
-12	;	;	PUNCT	Punc	_	11	punct	_	;
+11	ummanlar	umman	NOUN	_	Case=Nom|Number=Plur|Person=3	25	nsubj:pass	_	عمانلر
+12	;	;	PUNCT	Punc	_	22	punct	_	;
 13	bulutlarıyla	bulut	NOUN	_	Case=Ins|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	16	obl	_	بولوتلريله
 14	dağları	dağ	NOUN	_	Case=Acc|Number=Plur|Person=3	16	obj	_	طاغلرى
 15	koynunda	koyun	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	16	obl	_	قويننده
-16	sıkan	sık	VERB	Ptcp	Polarity=Pos|Tense=Pres|VerbForm=Part	11	acl	_	صيقان
-17	,	,	PUNCT	Comma	_	16	punct	_	,
+16	sıkan	sık	VERB	Ptcp	Polarity=Pos|Tense=Pres|VerbForm=Part	22	acl	_	صيقان
+17	,	,	PUNCT	Comma	_	21	punct	_	,
 18	şimşekleriyle	şimşek	NOUN	_	Case=Ins|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	20	obl	_	شمشكلريله
 19	şeytanların	şeytan	NOUN	_	Case=Gen|Number=Plur|Person=3	20	nmod:poss	_	شيطانلرك
-20	gözlerini	göz	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3	16	obj	_	كوزلرينى
+20	gözlerini	göz	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3	21	obj	_	كوزلرينى
+21	kamaştıran	kamaş	VERB	Ptcp	Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Cau	16	conj	_	قماشديران
+22	asumanlar	asuman	NOUN	_	Case=Nom|Number=Plur|Person=3	11	conj	_	اسمانلر
+23	ne	ne	ADV	_	_	25	advmod	_	نه
+24	kadar	kadar	ADP	PCDat	_	23	case	_	قدر
+25	tasavvur	tasavvur	NOUN	_	Case=Nom|Number=Sing|Person=3	33	advcl	_	تصور
+26	edilse	et	VERB	_	Mood=Des|Number=Sing|Person=3|Polarity=Pos|Voice=Pass	25	compound:lvc	_	ايدلسه
+27	bunların	bu	PRON	Demons	Case=Gen|Number=Plur|Person=3|PronType=Dem	28	nmod:poss	_	بونلرك
+28	menazır-ı	menazır	NOUN	_	Case=Nom|Number=Sing|Person=3	31	obj	_	مناظر
+29	azamet-ârâsına	azamet-ârâsına	NOUN	_	Case=Dat|Number=Sing|Person=3	28	nmod:poss	_	عظمت اَراسنه
+30	fikren	fikren	ADV	_	_	31	advmod	_	فكراً
+31	takarrüb	takarrüb	NOUN	_	Case=Nom|Number=Sing|Person=3	33	csubj	_	تقرب
+32	bile	bile	ADV	Emph	_	31	advmod:emph	_	بيله
+33	kabil	kabil	ADJ	Adj	_	62	obl	_	قابل
+34	olamayacağı	ol	VERB	Ptcp	Aspect=Prosp|Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Neg|Tense=Fut|VerbForm=Part	33	compound:lvc	_	اوله‌مايه‌جغى
+35	gibi	gibi	ADP	PCNom	_	33	case	_	كبى
+36	nev-i	nev'	NOUN	_	Case=Nom|Number=Sing|Person=3	38	nsubj:pass	_	نوع
+37	beşer	beşer	NOUN	_	_	36	compound	_	بشر
+38	denilen	de	VERB	Ptcp	Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass	39	acl	_	دينيلن
+39	alem-i	alem	NOUN	_	Case=Nom|Number=Sing|Person=3	42	nmod:poss	_	عالم
+40	zî-hayatın	zî-hayat	NOUN	_	Case=Gen|Number=Sing|Person=3	39	nmod:poss	_	ذى حياتك
+41	da	da	PART	Emph	_	39	advmod:emph	_	ده
+42	teakub-ı	teakub	NOUN	_	Case=Nom|Number=Sing|Person=3	49	ccomp	_	تعاقب
+43	emvac-ı	emvac	NOUN	_	Case=Nom|Number=Sing|Person=3	42	nmod:poss	_	امواج
+44	ihtiyacatını	ihtiyacat	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	43	nmod:poss	_	احتياجاتنى
+45	,	,	PUNCT	Comma	_	46	punct	_	,
+46	tehacüm-i	tehacüm	NOUN	_	Case=Nom|Number=Sing|Person=3	42	conj	_	تهاجم
+47	sehaib-i	sehaib	NOUN	_	Case=Nom|Number=Sing|Person=3	46	nmod:poss	_	سحائب
+48	tefekküratını	tefekkürat	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	47	nmod:poss	_	تفكراتنى
+49	görmek	gör	VERB	Vnoun	Case=Nom|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	62	advcl	_	كورمك
+50	için	için	ADP	PCNom	_	49	case	_	ايچين
+51	deryalarının	derya	NOUN	_	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	52	nmod:poss	_	دريالرينك
+52	a'mak-ı	a'mak	NOUN	_	Case=Nom|Number=Sing|Person=3	54	obl	_	SpcaesAfter=No|اعماق
+53	muzlimesinde	muzlime	ADJ	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	52	nmod:poss	_	مظلمه‌سنده
+54	yüzmekten	yüz	VERB	Vnoun	Case=Abl|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	60	ccomp	_	SpaceAfter=No|يوزمكدن
+55	,	,	PUNCT	Comma	_	59	punct	_	,
+56	semalarının	sema	NOUN	_	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	57	nmod:poss	_	سمالرينك
+57	afak-ı	afak	NOUN	_	Case=Nom|Number=Sing|Person=3	59	obl	_	اًفاق
+58	na-mütenahisine	na-mütenahî	ADJ	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	57	amod	_	نامتناهيسنه
+59	uçmaktan	uç	VERB	Vnoun	Case=Abl|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	54	conj	_	اوچمقدن
+60	başka	başka	ADJ	Adj	_	61	amod	_	باشقه
+61	çare	çare	NOUN	_	Case=Nom|Number=Sing|Person=3	62	nsubj	_	چاره
+62	yoktur	yok	NOUN	Exist	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No|يوقدر
+63	!	!	PUNCT	Excl	_	62	punct	_	!
 
 # sent_id = meh_ah_92
 # text_arabic = . لپسقه صاچلرينى باشقه دوداقلره طوقوندوره‌جق
@@ -2344,41 +2381,39 @@
 49	!	!	PUNCT	Excl	_	48	punct	_	!
 
 # sent_id = mus_ah_3
-# text_arabic = . اسكيدن كنديمزه‌ كوره‌ يشايشمز دوشونشمز كينشمز و كنديمزه‌ كوره‌ ديندن عرقدن و عنعنه‌دن حيات آلان بر ذوقمز اولديغى كبى , بو اسلوب حياته‌ كوره‌ ده‌ ساعت لرمز و كون لرمز واردى
-# text = Eskiden kendimize göre yaşayışımız düşünüşümüz giyinişimiz ve kendimize göre dinden ırktan ve anneden Hayat alan bir zevkimiz olduğu gibi bu üslub-u hayata göre de saatlerimiz ve günlerimiz vardı.
+# text_arabic = . اسكيدن  كنديمزه‌  كوره‌  يشايشمز  دوشونشمز  كينشمز    و كنديمزه‌   كوره‌  ديندن  عرقدن  و عنعنه‌دن  حيات  آلان  بر  ذوقمز  اولديغى  كبى  ,   بو  اسلوب  حياته‌  كوره‌ ده‌  ساعت  لرمز  و  كون  لرمز  واردى
+# text = Eskiden kendimize göre yaşayışımız düşünüşümüz giyinişimiz ve kendimize göre dinden ırktan ve ananeden hayat alan bir zevkimiz olduğu gibi bu üslub-u hayata göre de saatlerimiz ve günlerimiz vardı.
 1	Eskiden	eski	NOUN	_	Case=Abl|Number=Sing|Person=3	18	obl	_	اسكيدن|TokenRange=193:200
 2	kendimize	kendi	PRON	Reflex	Case=Dat|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	4	obl	_	كنديمزه‌|TokenRange=201:210
 3	göre	göre	ADP	PCDat	_	2	case	_	كوره‌|TokenRange=211:215
 4	yaşayışımız	yaşa	VERB	Vnoun	Case=Nom|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	18	csubj	_	يشايشمز|TokenRange=216:227
-5	düşünüşümüz	düşünüş	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	4	conj	_	دوشونشمز|TokenRange=228:239
-6	giyinişimiz	giyiniş	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	4	conj	_	كينشمز|TokenRange=240:251
+5	düşünüşümüz	düşün	VERB	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	4	conj	_	دوشونشمز|TokenRange=228:239
+6	giyinişimiz	giyin	VERB	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	4	conj	_	كينشمز|TokenRange=240:251
 7	ve	ve	CCONJ	_	_	17	cc	_	و|TokenRange=252:254
 8	kendimize	kendi	PRON	Reflex	Case=Dat|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	10	obl	_	كنديمزه‌|TokenRange=255:264
 9	göre	göre	ADP	PCDat	_	8	case	_	كوره‌|TokenRange=265:269
 10	dinden	din	NOUN	_	Case=Abl|Number=Sing|Person=3	14	obl	_	ديندن|TokenRange=270:276
 11	ırktan	ırk	NOUN	_	Case=Abl|Number=Sing|Person=3	10	conj	_	عرقدن|TokenRange=277:283
 12	ve	ve	CCONJ	_	_	13	cc	_	و|TokenRange=284:286
-13	anneden	anne	NOUN	_	Case=Abl|Number=Sing|Person=3	10	conj	_	عنعنه‌دن|TokenRange=287:294
-14	Hayat	hayat	NOUN	_	Case=Nom|Number=Sing|Person=3	17	acl	_	حيات|TokenRange=295:300
+13	ananeden	anane	NOUN	_	Case=Abl|Number=Sing|Person=3	10	conj	_	عنعنه‌دن|TokenRange=287:294
+14	hayat	hayat	NOUN	_	Case=Nom|Number=Sing|Person=3	17	acl	_	حيات|TokenRange=295:300
 15	alan	al	VERB	Ptcp	Polarity=Pos|Tense=Pres|VerbForm=Part	14	compound	_	آلان|TokenRange=301:305
 16	bir	bir	DET	Indef	_	17	det	_	بر|TokenRange=306:309
 17	zevkimiz	zevk	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	4	conj	_	ذوقمز|TokenRange=310:318
-18	olduğu	ol	VERB	Ptcp	Aspect=Perf|Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	30	advcl	_	اولديغى|TokenRange=319:325
+18	olduğu	ol	VERB	Ptcp	Aspect=Perf|Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	28	advcl	_	اولديغى|TokenRange=319:325
 19	gibi	gibi	ADP	PCNom	_	18	case	_	كبى|TokenRange=326:330
 20	bu	bu	DET	Demons	_	21	det	_	بو|TokenRange=331:333
-21	üslub	üslub	NOUN	_	Case=Nom|Number=Sing|Person=3	27	obl	_	اسلوب|SpaceAfter=No|TokenRange=334:339
-22	-	-	PUNCT	Punc	_	21	punct	_	SpaceAfter=No|TokenRange=339:340
-23	u	u	NOUN	Separ	_	21	case	_	TokenRange=340:341
-24	hayata	hayat	NOUN	_	Case=Dat|Number=Sing|Person=3	21	nmod:poss	_	حياته‌|TokenRange=342:348
-25	göre	göre	ADP	PCDat	_	21	case	_	كوره‌|TokenRange=349:353
-26	de	de	PART	Emph	_	25	advmod:emph	_	ده|TokenRange=354:356
-27	saatlerimiz	saat	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=1	30	nsubj	_	ساعت لرمز|TokenRange=357:368
-28	ve	ve	CCONJ	_	_	29	cc	_	و|TokenRange=369:371
-29	günlerimiz	gün	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=1	27	conj	_	كون لرمز|TokenRange=372:382
-30-31	vardı	_	_	_	_	_	_	_	واردى|SpaceAfter=No|TokenRange=383:388
-30	var	var	NOUN	Exist	Case=Nom|Number=Sing|Person=3|Polarity=Pos	0	root	_	_
-31	dı	y	AUX	Zero	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Tense=Past	30	cop	_	_
-32	.	.	PUNCT	Stop	_	30	punct	_	.|SpacesAfter=\r\n|TokenRange=388:389
+21	üslub-u	üslub	NOUN	_	Case=Nom|Number=Sing|Person=3	25	obl	_	اسلوب|TokenRange=334:339
+22	hayata	hayat	NOUN	_	Case=Dat|Number=Sing|Person=3	21	nmod:poss	_	حياته‌
+23	göre	göre	ADP	PCDat	_	21	case	_	كوره‌
+24	de	de	PART	Emph	_	23	advmod:emph	_	ده‌
+25	saatlerimiz	saat	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=1	28	nsubj	_	ساعت لرمز
+26	ve	ve	CCONJ	_	_	27	cc	_	و|TokenRange=369:371
+27	günlerimiz	gün	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=1	25	conj	_	كون لرمز
+28-29	vardı	_	_	_	_	_	_	_	واردى|SpaceAfter=No
+28	var	var	NOUN	Exist	Case=Nom|Number=Sing|Person=3|Polarity=Pos	0	root	_	_
+29	dı	y	AUX	Zero	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Tense=Past	28	cop	_	_
+30	.	.	PUNCT	Stop	_	28	punct	_	SpacesAfter=\r\n
 
 # sent_id = jan_ae_121
 # text_arabic = . فقط انديشه‌مز همان زائل اوليويردى , ايكيمز ده مستريح اولدق : اختيارك يوزنده اك مؤثر تأمينات قوليه‌دن بيك كره زياده اطمئنان بخشاى قلب و جان اوله‌جق بر مأل علوى , خير خواهانه , پدرانه بر تبسم پيدا اولمشدى , چوجوغى سومكه كيدييور

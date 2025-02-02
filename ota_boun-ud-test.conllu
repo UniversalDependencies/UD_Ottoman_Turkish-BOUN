@@ -76,7 +76,7 @@
 4	erkeklere	erkek	NOUN	_	Case=Dat|Number=Plur|Person=3	2	conj	_	ارككلره
 5	de	de	PART	Emph	_	4	advmod:emph	_	ده
 6	şu	şu	DET	Demons	_	9	det	_	شو
-7	üzerinde	Üzer	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obl	_	اوزرنده
+7	üzerinde	üzer	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obl	_	اوزرنده
 8	bulunduğumuz	bulun	VERB	Ptcp	Aspect=Perf|Number[psor]=Plur|Person[psor]=1|Polarity=Pos|Tense=Past|VerbForm=Part	9	acl	_	بولنديغمز
 9	kitle-i	kitle	NOUN	_	Case=Nom|Number=Sing|Person=3	15	nmod:poss	_	كتله
 10	sefilenin	sefile	NOUN	_	Case=Gen|Number=Sing|Person=3	14	nsubj	_	سفيله نك
@@ -438,7 +438,7 @@
 15	.	.	PUNCT	Stop	_	14	punct	_	.
 
 # sent_id = gen_mk_2
-# text_arabic = . برنجى وظيفه ك تورك استقلالينى تورك جمهوريتنى الى الابد محافظه و مدافعه ايتمكدر
+# text_arabic = . برنجى وظيفهك تورك استقلالينى تورك جمهوريتنى الى الابد محافظه و مدافعه ايتمكدر
 # text = Birinci vazifen; Türk istiklalini, Türk cumhuriyetini, ilelebet muhafaza ve müdafaa etmektir.
 1	Birinci	bir	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	2	amod	_	برنجى
 2	vazifen	vazife	NOUN	_	Case=Nom|Number=Sing|Person=3	11	nsubj	_	SpaceAfter=No|وظيفه ك
@@ -1117,7 +1117,7 @@
 8	şimdi	şimdi	ADV	_	_	18	advmod	_	شيمدى
 9	sahilin	sahil	NOUN	_	Case=Gen|Number=Sing|Person=3	10	nmod:poss	_	ساحلك
 10	kumları	kum	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	11	nmod:poss	_	قوملرى
-11	üzerinde	Üzer	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	15	obl	_	اوزرنده
+11	üzerinde	üzer	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	15	obl	_	اوزرنده
 12	ziyadan	ziyadan	NOUN	_	Case=Abl|Number=Sing|Person=3	14	obl	_	ضيادن
 13	bir	bir	DET	Indef	_	14	det	_	بر
 14	mâyi	mâyi	NOUN	_	Case=Nom|Number=Sing|Person=3	18	csubj	_	مايع
@@ -1484,7 +1484,7 @@
 7	siyasileri	siyasi	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	6	amod	_	سياسيلرى
 8	hakkında	Hak	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	15	obl	_	حقنده
 9	muhtasaran	muhtasaran	ADV	_	_	10	advmod	_	مختصرا
-10	ita-yı	itay	NOUN	_	Case=Nom|Number=Sing|Person=3	13	csubj	_	اعطاى
+10	ita-yı	ita	NOUN	_	Case=Nom|Number=Sing|Person=3	13	csubj	_	اعطاى
 11	ma'lumât	ma'lumât	NOUN	_	Case=Acc|Number=Sing|Person=3	10	obj	_	معلومات
 12	eylemek	eyle	VERB	Vnoun	Case=Nom|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	10	compound:lvc	_	ايلمك
 13	muvâfık	muvâfık	ADJ	Adj	_	15	nmod:poss	_	موافق
@@ -1742,7 +1742,7 @@
 5	cihetlerinin	cihet	NOUN	_	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod:poss	_	جهتلرينك
 6	ötesi	öte	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	35	nsubj	_	اوته‌سى
 7	,	,	PUNCT	Comma	_	15	punct	_	,
-8	birisi	beri	NOUN	Quant	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nsubj	_	بريسى
+8	birisi	biri	PRON	Quant	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nsubj	_	بريسى
 9	yırtılmış	yırt	VERB	Ptcp	Aspect=Imp|Number=Sing|Person=3|Polarity=Pos|Voice=Pass	13	advcl	_	ييرتيلمش
 10	olduğundan	ol	AUX	Ptcp	Aspect=Perf|Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	9	aux	_	اولديغندن
 11	balmumundan	balmum	NOUN	_	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	12	obl	_	بال مومندن
@@ -1816,11 +1816,11 @@
 38	,	,	PUNCT	Comma	_	47	punct	_	,
 39	her	her	DET	Det	_	40	det	_	هر
 40	türlü	türlü	ADJ	Adj	_	41	amod	_	درلو
-41	terakkiyata	terakkiyat	NOUN	_	Case=Acc|Number=Sing|Person=3	42	obj	_	ترقياته
+41	terakkiyata	terakkiyat	NOUN	_	Case=Dat|Number=Sing|Person=3	42	obj	_	ترقياته
 42	cilve-gâh	cilve-gâh	NOUN	_	Case=Nom|Number=Sing|Person=3	45	acl	_	جلوه كاه
 43	olabilecek	ol	VERB	Ptcp	Aspect=Prosp|Mood=Pot|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	42	compound:lvc	_	اوله بيله جك
 44	bir	bir	DET	Indef	_	45	det	_	بر
-45	vicdan-ı	vicdan-ı	NOUN	_	Case=Nom|Number=Sing|Person=3	47	obj	_	وجدان
+45	vicdan-ı	vicdan	NOUN	_	Case=Nom|Number=Sing|Person=3	47	obj	_	وجدان
 46	müstakbel	müstakbel	ADJ	Adj	_	45	acl	_	مستقبل
 47	hazırlamak	hazırla	VERB	Vnoun	Case=Nom|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	37	conj	_	حاضرلامق
 48	en	en	ADV	_	_	49	advmod	_	أك
@@ -3433,7 +3433,7 @@
 20	ile	ile	CCONJ	_	_	17	case	_	ایله
 21	mütevaggıl	mütevaggıl	ADJ	Adj	_	23	acl	_	متوغل
 22	olan	ol	VERB	Ptcp	Polarity=Pos|Tense=Pres|VerbForm=Part	21	compound:lvc	_	اولان
-23	edibler	et	VERB	Ptcp	Case=Nom|Number=Plur|Person=3	37	nsubj	_	اديبلر
+23	edibler	edib	NOUN	Ptcp	Case=Nom|Number=Plur|Person=3	37	nsubj	_	اديبلر
 24	hiçbir	hiçbir	DET	Det	_	25	det	_	هيچ بر
 25	zaman	zaman	NOUN	_	Case=Nom|Number=Sing|Person=3	37	obl	_	زمان
 26	kendilerini	kendi	PRON	Reflex	Case=Acc|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3|Reflex=Yes	37	obj	_	كنديلرينى
@@ -3557,7 +3557,7 @@
 18	nail	nail	NOUN	_	Case=Nom|Number=Sing|Person=3	20	acl	_	نائل
 19	olmuş	ol	VERB	Ptcp	Evident=Nfh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	18	compound:lvc	_	اولمش
 20	kadınların	kadın	NOUN	_	Case=Gen|Number=Plur|Person=3	21	nmod:poss	_	قادينلرك
-21	adeden	adet	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	22	nsubj	_	عدداً
+21	adeden	adet	NOUN	_	Case=Nom|Number=Sing|Person=3	22	nsubj	_	عدداً
 22	az	az	ADV	_	_	23	amod	_	أز
 23	olmasıdır	ol	VERB	Vnoun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|VerbForm=Vnoun	7	conj	_	اولمه سيدر
 24	.	.	PUNCT	Stop	_	23	punct	_	.
@@ -3804,7 +3804,7 @@
 5	nisvanımızın	nisvan	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	4	nmod:poss	_	نسوانمزك
 6	en	en	ADV	_	_	7	advmod	_	اك
 7	parlak	parlak	ADJ	Adj	_	8	amod	_	پارلاق
-8	vadi	vadi	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	15	obj	_	وادئ
+8	vadi	vad	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	15	obj	_	وادئ
 9	,	,	PUNCT	Comma	_	10	punct	_	_
 10	latifi	latif	ADJ	Adj	_	8	conj	_	لطيفى
 11	en	en	ADV	_	_	12	advmod	_	اك
@@ -3908,7 +3908,7 @@
 3	yapraklarını	yaprak	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	24	obj	_	SpaceAfter=No|يابراقلرينى
 4	,	,	PUNCT	Comma	_	9	punct	_	,
 5	kayalar	kaya	NOUN	_	Case=Nom|Number=Plur|Person=3	6	nmod:poss	_	قايالر
-6	üzerinde	Üzer	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	obl	_	اوزرنده
+6	üzerinde	üzer	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	obl	_	اوزرنده
 7	durup	dur	VERB	Conv	Polarity=Pos|VerbForm=Conv	8	advcl	_	دوروب
 8	soyulan	soy	VERB	Ptcp	Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass	9	acl	_	صولويان
 9	kertenkeleleri	kertenkele	NOUN	_	Case=Acc|Number=Plur|Person=3	3	conj	_	SpaceAfter=No|كرته ن كله لرى
@@ -4017,14 +4017,14 @@
 
 # sent_id = meh_ah_72
 # text_arabic = قارشيده يولده دكز صوييله صولانه صولانه بريكوب طوپراقلره قاريشان طوزلر قورويه رق تپلر ايتديكندن , كيجه مهتابك ايشغيله الماسپاره لر كبى پارلايوردى
-# text = Karşıda yolda deniz suyuyla sulana sulana birikib topraklara karışan tozlar kuruyarak tepeler ettiğinden , gece mehtabın ışığıyla elmaspâreler gibi parlıyordu .
+# text = Karşıda yolda deniz suyuyla sulana sulana birikip topraklara karışan tozlar kuruyarak tepeler ettiğinden , gece mehtabın ışığıyla elmaspâreler gibi parlıyordu .
 1	Karşıda	karşı	NOUN	_	Case=Loc|Number=Sing|Person=3	7	obl	_	قارشيده
 2	yolda	yol	NOUN	_	Case=Loc|Number=Sing|Person=3	7	obl	_	يولده
 3	deniz	deniz	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod:poss	_	دكز
 4	suyuyla	su	NOUN	_	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod	_	صوييله
 5	sulana	sulan	VERB	Conv	Mood=Opt|Number=Sing|Person=3|Polarity=Pos	7	advcl	_	صولانه
 6	sulana	sulan	VERB	Conv	Mood=Opt|Number=Sing|Person=3|Polarity=Pos	5	compound:redup	_	صولانه
-7	birikib	birik	VERB	_	_	9	advcl	_	بريكوب
+7	birikip	birik	VERB	_	_	9	advcl	_	بريكوب
 8	topraklara	toprak	NOUN	_	Case=Dat|Number=Plur|Person=3	9	obl	_	طوپراقلره
 9	karışan	karış	VERB	Ptcp	Polarity=Pos|Tense=Pres|VerbForm=Part	10	acl	_	قاريشان
 10	tozlar	toz	NOUN	_	Case=Acc|Number=Plur|Person=3	20	nsubj	_	طوزلر
@@ -4229,7 +4229,7 @@
 4	!	!	PUNCT	Excl	_	3	punct	_	!
 
 # sent_id = bed_rn_23
-# text_arabic = . شدتله دميره چاربان قافاسندن قانلر صيزمايه باشلادى ..
+# text_arabic = . شدتله دميره چاربان قافاسندن قانلر صيزمايه باشلادى
 # text = Nâ-tamâm kalan enîn-i istimdâda nâgehân cevab veren anîf bir ayak darbesiyle zavallı çocuk yere yuvarlandı .
 1	Nâ-tamâm	Nâ-tamâm	ADV	_	_	2	advmod	_	_
 2	kalan	kal	VERB	Ptcp	Polarity=Pos|Tense=Pres|VerbForm=Part	4	acl	_	_
@@ -4714,7 +4714,7 @@
 11	.	.	PUNCT	Stop	_	10	punct	_	SpaceAfter=No|TokenRange=4510:4511|.
 
 # sent_id = bed_rn_1
-# text_arabic = . ﻿انسانيت كوچولتن , حياتى كيرله تن ايكرنج منفعتلرك تماشاى كردباد و غليانيله لزومندن فضله أزيلمش دماغمى براًز ديكلمندرمك
+# text_arabic = . انسانيت كوچولتن , حياتى كيرله تن ايكرنج منفعتلرك تماشاى كردباد و غليانيله لزومندن فضله أزيلمش دماغمى براًز ديكلمندرمك
 # text = İnsaniyeti küçülten , hayatı kirleten iğrenç menfaatlerin temâşâ-yı girdbâd-ı galeyânıyla lüzumundan fazla ezilmiş dimağımı biraz dinlendirmek , daima her yerde iyilik görmek isteyen bedbaht vicdanımı saf ve ulvî tabiatın riyâsız teselli ve nevâzişleriyle biraz memnun edebilmek için hemen kendimi ilk hareket eden vapura atmıştım .
 1	İnsaniyeti	insaniyet	NOUN	_	Case=Acc|Number=Sing|Person=3	2	obj	_	انسانيت
 2	küçülten	küçül	VERB	Ptcp	Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Cau	7	acl	_	كوچولتن
@@ -4733,33 +4733,33 @@
 15	biraz	biraz	ADV	_	_	16	advmod	_	براًز
 16	dinlendirmek	dinlen	VERB	Vnoun	Case=Nom|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun|Voice=Cau	44	advcl	_	ديكلمندرمك
 17	,	,	PUNCT	Comma	_	23	punct	_	,
-18	daima	daima	ADV	_	_	22	advmod	_	_
-19	her	her	DET	Det	_	20	det	_	_
-20	yerde	yer	NOUN	_	Case=Loc|Number=Sing|Person=3	22	obl	_	_
-21	iyilik	iyilik	NOUN	_	Case=Acc|Number=Sing|Person=3	22	obj	_	_
-22	görmek	gör	VERB	Vnoun	Case=Nom|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	23	xcomp	_	_
-23	isteyen	iste	VERB	Ptcp	Polarity=Pos|Tense=Pres|VerbForm=Part	25	acl	_	_
-24	bedbaht	bedbaht	ADJ	Adj	_	25	amod	_	_
-25	vicdanımı	vicdan	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	35	obj	_	_
-26	saf	saf	ADJ	Adj	_	29	amod	_	_
-27	ve	ve	CCONJ	_	_	28	cc	_	_
-28	ulvî	ulvî	ADJ	Adj	_	26	conj	_	_
-29	tabiatın	tabiat	NOUN	_	Case=Gen|Number=Sing|Person=3	31	nmod:poss	_	_
-30	riyâsız	riyâsız	ADJ	Adj	_	31	amod	_	_
-31	teselli	teselli	NOUN	_	Case=Nom|Number=Sing|Person=3	35	obl	_	_
-32	ve	ve	CCONJ	_	_	33	cc	_	_
-33	nevâzişleriyle	nevâziş	NOUN	_	Case=Ins|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	31	conj	_	_
-34	biraz	biraz	ADV	_	_	35	advmod	_	_
-35	memnun	memnun	ADJ	Adj	_	16	conj	_	_
-36	edebilmek	et	VERB	Vnoun	Case=Nom|Mood=Pot|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	35	compound:lvc	_	_
-37	için	için	ADP	PCNom	_	16	case	_	_
-38	hemen	hemen	ADV	_	_	44	advmod	_	_
-39	kendimi	kendi	PRON	Reflex	Case=Acc|Number=Sing|Number[psor]=Sing|Person=1|Person[psor]=1|Reflex=Yes	44	obj	_	_
-40	ilk	ilk	ADV	Adj	_	41	advmod	_	_
-41	hareket	hareket	NOUN	_	Case=Nom|Number=Sing|Person=3	43	acl	_	_
-42	eden	et	VERB	Ptcp	Polarity=Pos|Tense=Pres|VerbForm=Part	41	compound:lvc	_	_
-43	vapura	vapur	NOUN	_	Case=Dat|Number=Sing|Person=3	44	obl	_	_
-44	atmıştım	at	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	_
+18	daima	daima	ADV	_	_	22	advmod	_	دايما
+19	her	her	DET	Det	_	20	det	_	هر
+20	yerde	yer	NOUN	_	Case=Loc|Number=Sing|Person=3	22	obl	_	ييرده
+21	iyilik	iyilik	NOUN	_	Case=Acc|Number=Sing|Person=3	22	obj	_	ايلىك
+22	görmek	gör	VERB	Vnoun	Case=Nom|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	23	xcomp	_	كورمك
+23	isteyen	iste	VERB	Ptcp	Polarity=Pos|Tense=Pres|VerbForm=Part	25	acl	_	ايسته ين
+24	bedbaht	bedbaht	ADJ	Adj	_	25	amod	_	بدبخت
+25	vicdanımı	vicdan	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	35	obj	_	وجدانمى
+26	saf	saf	ADJ	Adj	_	29	amod	_	صف
+27	ve	ve	CCONJ	_	_	28	cc	_	و
+28	ulvî	ulvî	ADJ	Adj	_	26	conj	_	علوى
+29	tabiatın	tabiat	NOUN	_	Case=Gen|Number=Sing|Person=3	31	nmod:poss	_	طبيعتك
+30	riyâsız	riyâsız	ADJ	Adj	_	31	amod	_	رياسىز
+31	teselli	teselli	NOUN	_	Case=Nom|Number=Sing|Person=3	35	obl	_	تسلي
+32	ve	ve	CCONJ	_	_	33	cc	_	و
+33	nevâzişleriyle	nevâziş	NOUN	_	Case=Ins|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	31	conj	_	نوازىشلرى ايله
+34	biraz	biraz	ADV	_	_	35	advmod	_	براًز
+35	memnun	memnun	ADJ	Adj	_	16	conj	_	ممنون
+36	edebilmek	et	VERB	Vnoun	Case=Nom|Mood=Pot|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	35	compound:lvc	_	ايده‌بيلمک
+37	için	için	ADP	PCNom	_	16	case	_	ايچون
+38	hemen	hemen	ADV	_	_	44	advmod	_	همان
+39	kendimi	kendi	PRON	Reflex	Case=Acc|Number=Sing|Number[psor]=Sing|Person=1|Person[psor]=1|Reflex=Yes	44	obj	_	كنديمى
+40	ilk	ilk	ADV	Adj	_	41	advmod	_	ايلك
+41	hareket	hareket	NOUN	_	Case=Nom|Number=Sing|Person=3	43	acl	_	حركت
+42	eden	et	VERB	Ptcp	Polarity=Pos|Tense=Pres|VerbForm=Part	41	compound:lvc	_	ايدن
+43	vapura	vapur	NOUN	_	Case=Dat|Number=Sing|Person=3	44	obl	_	واپوره
+44	atmıştım	at	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	اًتمشدم
 45	.	.	PUNCT	Stop	_	44	punct	_	.
 
 # sent_id = meh_ah_48
@@ -5635,13 +5635,13 @@
 18	.	.	PUNCT	Stop	_	17	punct	_	.
 
 # sent_id = meh_ah_120
-# text_arabic = نيچون يا ربى , نيچون ?
+# text_arabic = ? نيچون يا ربى ,  نيچون 
 # text = Niçin yarabbi , niçin ?
-1	Niçin	niçin	ADV	_	_	2	advmod	_	نيچون
-2	yarabbi	yarabbi	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	يا ربى
-3	,	,	PUNCT	Comma	_	4	punct	_	,
+1	Niçin	niçin	ADV	_	_	0	root	_	نيچون
+2	yarabbi	yarabbi	NOUN	_	Case=Nom|Number=Sing|Person=3	1	discourse	_	يا ربى
+3	,	,	PUNCT	Comma	_	4	punct	_	_
 4	niçin	niçin	ADV	_	_	1	conj	_	نيچون
-5	?	?	PUNCT	Ques	_	2	punct	_	?
+5	?	?	PUNCT	Ques	_	1	punct	_	?
 
 # sent_id = jan_ae_86
 # text_arabic = . بو صيراده لو قانطه يه برفامليا كيرييوردى : قوى بنيه لى , بيوجك وجودلو , ايرى كمكلى , قيرمزى يوزلو , اًنجق قرق ياشنده تميزكينمش بر اًدم ؛ قولنده بر مادام كه قوجه سى كبى هر حالندن هر طورندن ثروت صحتك بر دفينه سيمين پيكرى اولدوغى اكلاشيليور
@@ -5872,7 +5872,7 @@
 10	.	.	PUNCT	Stop	_	8	punct	_	.
 
 # sent_id = meh_ah_43
-# text_arabic = ـ ناصل براقدك ?
+# text_arabic = ? ناصل براقدك -
 # text = - Nasıl bıraktın ?
 1	-	-	PUNCT	Punc	_	2	punct	_	-
 2	Nasıl	nasıl	ADV	_	_	3	advmod	_	ناصل
@@ -6735,24 +6735,24 @@
 38	.	.	PUNCT	Stop	_	37	punct	_	.
 
 # sent_id = gen_mk_9
-# text_arabic = . جبراً و حيله ايله عزيز وطنك بوتن قلعه لرى ضبط ايدلمش بوتن ترسانه لرينه گيرلمش بتون اوردولرى داغيتلمش و مملكتك هر كوشه سى بالفعل اشغال ايدلمش اوله بيلير
+# text_arabic = . جبراً و حيله ايله عزيز وطنكبتون قلعه لرى ضبط ايدلمش بتون ترسانه لرينه گيرلمش بتون اوردولرى داغيتلمش و مملكتك هر كوشه سى بالفعل اشغال ايدلمش اوله بيلير
 # text = Cebren ve hile ile aziz vatanın bütün kaleleri zapt edilmiş, bütün tersanelerine girilmiş, bütün orduları dağıtılmış ve memleketin her köşesi bilfiil işgal edilmiş olabilir.
-1	Cebren	cebren	ADV	_	_	9	advmod	_	جبراً
+1	Cebren	cebr	ADV	_	_	9	advmod	_	جبراً
 2	ve	ve	CCONJ	_	_	3	cc	_	و
 3	hile	hile	NOUN	_	Case=Nom|Number=Sing|Person=3	1	conj	_	حيله
 4	ile	ile	CCONJ	_	_	3	case	_	ايله
 5	aziz	aziz	ADJ	Adj	_	6	amod	_	عزيز
 6	vatanın	vatan	NOUN	_	Case=Gen|Number=Sing|Person=3	8	nmod:poss	_	وطنك
-7	bütün	bütün	DET	Adj	_	8	det	_	بوتن
+7	bütün	bütün	DET	Adj	_	8	det	_	بتون
 8	kaleleri	kale	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	9	nsubj:pass	_	قلعه لرى
 9	zapt	zapt	NOUN	_	Case=Nom|Number=Sing|Person=3	26	ccomp	_	ضبط
 10	edilmiş	et	VERB	_	Evident=Nfh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	9	compound:lvc	_	ايدلمش|SpaceAfter=No
 11	,	,	PUNCT	Comma	_	14	punct	_	,
-12	bütün	bütün	DET	Adj	_	13	det	_	بوتن
+12	bütün	bütün	DET	Adj	_	13	det	_	بتون
 13	tersanelerine	tersane	NOUN	_	Case=Dat|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	14	obl	_	ترسانه لرينه
 14	girilmiş	gir	VERB	_	Evident=Nfh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	9	conj	_	گيرلمش|SpaceAfter=No
 15	,	,	PUNCT	Comma	_	18	punct	_	,
-16	bütün	bütün	DET	Adj	_	17	det	_	بوتن
+16	bütün	bütün	DET	Adj	_	17	det	_	بتون
 17	orduları	ordu	NOUN	_	Case=Acc|Number=Plur|Person=3	18	nsubj	_	اوردولرى
 18	dağıtılmış	dağıtıl	VERB	_	Evident=Nfh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	9	conj	_	داغيتلمش
 19	ve	ve	CCONJ	_	_	24	cc	_	و
@@ -6988,7 +6988,7 @@
 # text_arabic = . بو نشئه لى تازه لرك قانادلانمش كبى , مشلحلرينى صاووه رق , اورتولريتك اوجلرينى اوچوره رق , ياقلرينى چيرپه رق , اللرينى صاللايه رق صيچرامالرندن , قهقهه لرندن , اشكلر پك ممنون , پك مغرور كوزوكورلركن . صيرتلرنده كى يوموشاقلقلره رغماَ اشكجيلرك " هايدى بى بى قو !! هايدى مى مى قو !" يايغارالريله اَرقالرينه اينديردكلرى صوپالرك اَجيسى بر تضاد غريب تشكيل ايدييوردى
 # text = Bu neş'eli tazelerin kanatlanmış gibi , maşlahlarını savurarak , örtülerinin uçlarını uçurarak , ayaklarını çırparak , ellerini sallayarak sıçramalarından , kahkahalarından , eşekler pek memnun , pek mağrûr gözükürlerken , sırtlarındaki yumuşaklıklara rağmen eşekçilerin “ Haydi bibiko ! ! Haydi mimiko ! ” yaygaralarıyla arkalarına indirdikleri sopaların acısı bir tezâd-ı garîb teşkil ediyordu .
 1	Bu	bu	DET	Det	_	3	det	_	بو
-2	neş'eli	neş'eli	ADJ	Adj	_	3	amod	_	نشئه لى
+2	neş'eli	neş'e	ADJ	Adj	_	3	amod	_	نشئه لى
 3	tazelerin	taze	NOUN	_	Case=Gen|Number=Plur|Person=3	19	nsubj	_	تازه لرك
 4	kanatlanmış	kanatlan	VERB	Ptcp	Aspect=Imp|Number=Sing|Person=3|Polarity=Pos|Voice=Pass	19	advcl	_	قانادلانمش
 5	gibi	gibi	ADP	PCNom	_	4	case	_	كبى
@@ -7900,10 +7900,10 @@
 13	dûn	dûn	ADJ	_	Case=Nom|Number=Sing|Person=3	3	conj	_	دون
 14	,	,	PUNCT	Comma	_	15	punct	_	,
 15	mutantan	mutantan	ADJ	_	Case=Nom|Number=Sing|Person=3	3	conj	_	مطنطن
-16	,	,	PUNCT	Comma	_	15	punct	_	,
+16	,	,	PUNCT	Comma	_	17	punct	_	,
 17	muhakkar	muhakkar	ADJ	Adj	_	3	conj	_	محقر
 18	rü'yâların	rü'yâ	NOUN	_	Case=Gen|Number=Plur|Person=3	20	nmod:poss	_	رؤيالرك
-19	cilvegâh-ı	cilvegâh-ı	NOUN	_	Case=Nom|Number=Sing|Person=3	25	acl	_	جلوه كاه
+19	cilvegâh-ı	cilvegâh	NOUN	_	Case=Nom|Number=Sing|Person=3	25	acl	_	جلوه كاه
 20	zuhûru	zuhûr	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	19	nmod:poss	_	ظهورى
 21	olan	ol	VERB	Ptcp	Polarity=Pos|Tense=Pres|VerbForm=Part	19	compound:lvc	_	اولان
 22	o	o	DET	Demons	_	24	det	_	او
