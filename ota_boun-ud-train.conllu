@@ -95,7 +95,7 @@
 3	.	.	PUNCT	Stop	_	1	punct	_	.
 
 # sent_id = meh_ah_49
-# text_arabic = . ايچنى چكيوردى : " يوروميورم , سورونويورم ! " دييوردى 
+# text_arabic = . ايچنى چكيوردى : " يوروميورم , سورونويورم ! " دييوردى
 # text = İçini çekiyordu : “ Yürümüyorum , sürünüyorum ! ” diyordu .
 1	İçini	iç	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	ايچنى
 2	çekiyordu	çek	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	1	compound	_	چكيوردى
@@ -212,7 +212,7 @@
 12	Sabahları	sabah	ADV	_	_	14	obl	_	صباحلرى
 13	güneş	güneş	NOUN	_	Case=Nom|Number=Sing|Person=3	14	nsubj	_	كونش
 14	doğarken	doğ	VERB	Conv	Aspect=Hab|Mood=Imp|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Conv	18	advcl	_	دوغاركن
-15	ara	ara	NOUN	_	_	18	advmod	_	آرا
+15	ara	ara	NOUN	_	ExtPos=ADV	18	advmod	_	آرا
 16	sıra	sıra	NOUN	_	Case=Nom|Number=Sing|Person=3	15	fixed	_	صيره‌
 17	bir	bir	DET	Indef	_	18	det	_	بر
 18	hıçkırık	hıçkırık	NOUN	_	Case=Nom|Number=Sing|Person=3	10	obj	_	خنجقريق
@@ -1692,7 +1692,7 @@
 14	.	.	PUNCT	Stop	_	13	punct	_	.
 
 # sent_id = meh_ah_95
-# text_arabic = ? هم كندى وارلغنى هم قاريسنك سوكيسنى كورمك بر سعادت دكل ميدى 
+# text_arabic = ? هم كندى وارلغنى هم قاريسنك سوكيسنى كورمك بر سعادت دكل ميدى
 # text = Hem kendi varlığını hem karısının sevgisini görmek bir saâdet değil miydi ?
 1	Hem	hem	CCONJ	_	_	3	cc:preconj	_	هم
 2	kendi	kendi	PRON	Reflex	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Reflex=Yes	3	nmod:poss	_	كندى
@@ -2241,7 +2241,7 @@
 3	.	.	PUNCT	Stop	_	2	punct	_	.
 
 # sent_id = jan_ae_118
-# text_arabic = ? منزولك شوحركتى انديشه‌مى موجب اولدى : منزول اولانلرده بعضا فوق العاده بر هيجان عصبى ظهور ايدرده عادتا نه ياپدقلرينى بيلمزلر ؛ عجبا خسته چوجوغه بر فنالقمى ايده‌جك 
+# text_arabic = ? منزولك شوحركتى انديشه‌مى موجب اولدى : منزول اولانلرده بعضا فوق العاده بر هيجان عصبى ظهور ايدرده عادتا نه ياپدقلرينى بيلمزلر ؛ عجبا خسته چوجوغه بر فنالقمى ايده‌جك
 # text = Menzûlün şu hareketi endişemi mucib oldu : menzûl olanlarda bazen fevk-al-âde bir heyecân-ı asabî zuhûr eder de adeta ne yaptıklarını bilmezler ; acaba hasta çocuğa bir fenalık mı edecek ?
 1	Menzûlün	menzûl	NOUN	_	Case=Gen|Number=Sing|Person=3	3	nmod:poss	_	منزولك
 2	şu	şu	DET	Demons	_	3	det	_	شو

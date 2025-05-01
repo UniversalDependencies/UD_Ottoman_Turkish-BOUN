@@ -955,7 +955,7 @@
 13	.	.	PUNCT	Stop	_	12	punct	_	.
 
 # sent_id = nut_mk_6
-# text_arabic = . سلطنت و خلافت موقعنى اشغال ايدن وحيدالدين , متردى , شخصنى و يالكز تختنى تأمين ايده بيله جكنى تخيل ايتديكى دنى تدبيرلر آراشديرمقده 
+# text_arabic = . سلطنت و خلافت موقعنى اشغال ايدن وحيدالدين , متردى , شخصنى و يالكز تختنى تأمين ايده بيله جكنى تخيل ايتديكى دنى تدبيرلر آراشديرمقده
 # text = Saltanat ve hilâfet mevkiini işgal eden Vahideddin , mütereddi , şahsını ve yalnız tahtını temîn edebileceğini tahayyül ettiği denî tedbirler araştırmakta .
 1	Saltanat	saltanat	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod:poss	_	سلطنت
 2	ve	ve	CCONJ	_	_	3	cc	_	و
@@ -2316,7 +2316,7 @@
 7	.	.	PUNCT	Stop	_	6	punct	_	.
 
 # sent_id = bed_rn_21
-# text_arabic = ـ قوزوم بك افندى , مرحمت ايديكز , اون پارا ويريكز , ایکی کوندر آچیم . 
+# text_arabic = ـ قوزوم بك افندى , مرحمت ايديكز , اون پارا ويريكز , ایکی کوندر آچیم .
 # text = - Kuzum beyefendi , merhamet ediniz , on para veriniz , iki gündür açım .
 1	-	-	PUNCT	Punc	_	5	punct	_	-
 2	Kuzum	kuzu	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	3	amod	_	قوزوم
@@ -5635,7 +5635,7 @@
 18	.	.	PUNCT	Stop	_	17	punct	_	.
 
 # sent_id = meh_ah_120
-# text_arabic = ? نيچون يا ربى ,  نيچون 
+# text_arabic = ? نيچون يا ربى ,  نيچون
 # text = Niçin yarabbi , niçin ?
 1	Niçin	niçin	ADV	_	_	0	root	_	نيچون
 2	yarabbi	yarabbi	NOUN	_	Case=Nom|Number=Sing|Person=3	1	discourse	_	يا ربى
@@ -5946,7 +5946,7 @@
 4	.	.	PUNCT	Stop	_	2	punct	_	.
 
 # sent_id = nut_mk_13
-# text_arabic = . هر طرفده  اجنبى ضابط و مأمورلرى و خصوصى آدملرى فعاليتده 
+# text_arabic = . هر طرفده  اجنبى ضابط و مأمورلرى و خصوصى آدملرى فعاليتده
 # text = Her tarafta ecnebi zâbit ve memurları ve hususî adamları faaliyette .
 1	Her	her	DET	Det	_	2	det	_	هر
 2	tarafta	taraf	NOUN	_	Case=Loc|Number=Sing|Person=3	10	obl	_	طرفده
@@ -6495,7 +6495,7 @@
 2	bunların	bu	PRON	Demons	Case=Gen|Number=Plur|Person=3|PronType=Dem	3	nmod:poss	_	بونلرك
 3	hepsi	hepsi	PRON	Quant	Case=Nom|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3	9	nsubj	_	هپسى
 4	netice	netice	NOUN	_	_	5	nmod:poss	_	نتيجه
-5	itibariyle	itibariyle	ADP	_	Case=Ins|Number=Sing|Person=3	9	obl	_	اعتباريله
+5	itibariyle	itibariyle	NOUN	_	Case=Ins|Number=Sing|Person=3	9	obl	_	اعتباريله
 6	bende	ben	PRON	Pers	Case=Loc|Number=Sing|Person=1|PronType=Prs	9	obl	_	بنده
 7	bir	bir	DET	Indef	_	8	det	_	بر
 8	fikir	fikir	NOUN	_	Case=Acc|Number=Sing|Person=3	9	obj	_	فكر
@@ -8426,7 +8426,7 @@
 26	Fransa'yı	Fransa	PROPN	_	Case=Acc|Number=Sing|Person=3	30	obj	_	فرانسه يى
 27	tarih-i	tarih	NOUN	_	Case=Nom|Number=Sing|Person=3	29	nmod:poss	_	تاريخ
 28	tekâmül	tekâmül	NOUN	_	Case=Nom|Number=Sing|Person=3	27	nmod:poss	_	تكامل
-29	itibariyle	itibariyle	ADP	_	Case=Ins|Number=Sing|Person=3	30	obl	_	اعتباريله
+29	itibariyle	itibariyle	NOUN	_	Case=Ins|Number=Sing|Person=3	30	obl	_	اعتباريله
 30	tedkik	tedkik	NOUN	_	Case=Nom|Number=Sing|Person=3	32	ccomp	_	تدقيق
 31	edecek	et	VERB	Ptcp	Aspect=Prosp|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	30	compound:lvc	_	ايده جك
 32	olsak	ol	VERB	_	Mood=Des|Number=Plur|Person=1|Polarity=Pos	33	advcl	_	اولسه ق
