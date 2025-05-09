@@ -1,13 +1,13 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Ottoman_Turkish-BOUN:
-commit d4741e24256852a27de641ef2a6e658a6e23b181
+commit 33eaf3348976f8db1d6eb0e001bc928790fada85
+Merge: 77a2186 39cfc4d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 13:11:04 2024 +0200
-Size: counted 8814 of 8814 words (nodes).
-Size: min(0, log((N/1000)**2)) = 4.35268273283959.
+Size: counted 8851 of 8851 words (nodes).
+Size: min(0, log((N/1000)**2)) = 4.36106089397348.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Did not find more than 10000 training words.
 Split: Did not find at least 10000 development words.
@@ -15,28 +15,35 @@ Split: Did not find at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.5.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.1.
-Features: 5369 out of 8814 total words have one or more features.
+Features: 5375 out of 8851 total words have one or more features.
 Features: source of annotation (from README) factor is 0.4.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL       1304
-Udapi: found 1304 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 8814 words.
-Genres: found 2 out of 17 known.
+               TOTAL       1300
+Udapi: found 1300 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 8851 words.
+Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ota --max-err=10 UD_Ottoman_Turkish-BOUN/ota_boun-ud-test.conllu
+[Line 2831 Sent nes_tn_7 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'kırmızı beyaz' does not have the 'ExtPos' feature
+[Line 6185 Sent nes_tn_3 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'kırmızı beyaz' does not have the 'ExtPos' feature
+[Line 7836 Sent kad_am_18 Node 18]: [L3 Warning fixed-without-extpos] Fixed expression 'çalı çırpı' does not have the 'ExtPos' feature
+[Line 7840 Sent kad_am_18 Node 22]: [L3 Warning fixed-without-extpos] Fixed expression 'çalı çırpının' does not have the 'ExtPos' feature
+Warnings: 4
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ota --max-err=10 UD_Ottoman_Turkish-BOUN/ota_boun-ud-train.conllu
+[Line 739 Sent mus_ah_5 Node 20]: [L3 Warning fixed-without-extpos] Fixed expression 'az çok' does not have the 'ExtPos' feature
+Warnings: 1
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.4) = 0.0307692307692308
-(weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
+(weight=0.0769230769230769) * (score{genres}=0.111111111111111) = 0.00854700854700855
 (weight=0.0769230769230769) * (score{lemmas}=0.5) = 0.0384615384615385
-(weight=0.256410256410256) * (score{size}=0.315057682057967) = 0.0807840210405043
+(weight=0.256410256410256) * (score{size}=0.315664113582791) = 0.0809395163032797
 (weight=0.0512820512820513) * (score{split}=0.01) = 0.000512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.0941176470588235) = 0.00723981900452489
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.891891891891892) = 0.0686070686070686
-(TOTAL score=0.238501195228267) * (availability=1) * (validity=1) = 0.238501195228267
+(TOTAL score=0.238153925282395) * (availability=1) * (validity=1) = 0.238153925282395
 STARS = 1
-UD_Ottoman_Turkish-BOUN	0.238501195228267	1
+UD_Ottoman_Turkish-BOUN	0.238153925282395	1
