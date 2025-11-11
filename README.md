@@ -35,6 +35,7 @@ You can use the following reference for the treebank:
 Data available since: UD v2.14
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: fiction nonfiction
 Lemmas: automatic with corrections
 UPOS: automatic with corrections
