@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Ottoman_Turkish-BOUN:
-commit be701b1743054081f2314a54bfae7d4abf2639c0
-Merge: 2830ffe 7252f05
+commit 89add2c6fa71e04d881f62216e6ca75b98d0721a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 20:24:44 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'ota_boun'
 Language code (from CoNLL-U file name) = 'ota'
@@ -25,50 +25,63 @@ Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ota --max-err=10 UD_Ottoman_Turkish-BOUN/ota_boun-ud-test.conllu
-[Line 14 Sent nes_tn_76]: [L3 Warning pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 54 Sent meh_ah_122]: [L3 Warning pron-det-without-prontype] The word 'Bütün' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 60 Sent meh_ah_122]: [L3 Warning pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 64 Sent meh_ah_122]: [L3 Warning pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 78 Sent nes_tn_46]: [L3 Warning pron-det-without-prontype] The word 'şu' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 83 Sent nes_tn_46]: [L3 Warning pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 96 Sent nes_tn_46]: [L3 Warning pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 99 Sent nes_tn_46]: [L3 Warning pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 102 Sent nes_tn_46]: [L3 Warning pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 134 Sent ay_ah_20]: [L3 Warning pron-det-without-prontype] The word 'sensin' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-[Line 626 Sent meh_ah_75]: [L3 Syntax too-many-objects] Multiple direct objects [4, 8] ('parlaklık,', 'hüzün') under the predicate 'ima'.
-[Line 1221 Sent mus_ah_34]: [L3 Syntax too-many-objects] Multiple direct objects [16, 21] ('gece', 'gündüz') under the predicate 'olan'.
-[Line 1627 Sent nes_tn_8]: [L3 Syntax too-many-objects] Multiple direct objects [11, 16] ('romancımızla', 'Edmond') under the predicate 'mukayese'.
-[Line 2177 Sent meh_ah_108]: [L3 Syntax too-many-objects] Multiple direct objects [2, 9] ('acısını', 'rengi') under the predicate 'vermeyecek'.
-[Line 2840 Sent nes_tn_7]: [L3 Syntax too-many-objects] Multiple direct objects [6, 12] ('kulübünü', 'refikalarını') under the predicate 'irae'.
-[Line 3180 Sent meh_ah_55]: [L3 Syntax too-many-objects] Multiple direct objects [12, 17] ("ma'nâ-yı", 'feyz-i') under the predicate 'veriyordu'.
-[Line 5582 Sent meh_ah_47]: [L3 Syntax too-many-objects] Multiple direct objects [9, 10] ('fesini', 'bastonunu') under the predicate 'aradı'.
-[Line 6531 Sent jan_ae_127]: [L3 Syntax too-many-objects] Multiple direct objects [7, 12] ('dudaklarını', 'saçlarına') under the predicate 'temas'.
-[Line 6725 Sent meh_ah_131]: [L3 Syntax too-many-objects] Multiple direct objects [23, 27] ('kahkahalar', "neş'eler") under the predicate 'saçarak'.
-[Line 7375 Sent nes_tn_30]: [L3 Syntax too-many-objects] Multiple direct objects [5, 8] ('meslek-i', 'meslek-i') under the predicate 'unutacak'.
-...suppressing further errors regarding Syntax
-Syntax errors: 12
-Warnings: 500
-*** FAILED *** with 12 errors
+[Line 14 Sent nes_tn_76]: [L3 WARNING pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 54 Sent meh_ah_122]: [L3 WARNING pron-det-without-prontype] The word 'Bütün' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 60 Sent meh_ah_122]: [L3 WARNING pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 64 Sent meh_ah_122]: [L3 WARNING pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 78 Sent nes_tn_46]: [L3 WARNING pron-det-without-prontype] The word 'şu' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 83 Sent nes_tn_46]: [L3 WARNING pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 96 Sent nes_tn_46]: [L3 WARNING pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 99 Sent nes_tn_46]: [L3 WARNING pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 102 Sent nes_tn_46]: [L3 WARNING pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 134 Sent ay_ah_20]: [L3 WARNING pron-det-without-prontype] The word 'sensin' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 235 Sent nes_tn_32]: [L3 SYNTAX obl-should-be-nmod] The parent (node [11] 'üdeba') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 294 Sent jan_ae_89]: [L3 SYNTAX obl-should-be-nmod] The parent (node [21] 'zîhayât') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 298 Sent jan_ae_89]: [L3 SYNTAX obl-should-be-nmod] The parent (node [21] 'zîhayât') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 626 Sent meh_ah_75]: [L3 SYNTAX too-many-objects] Multiple direct objects [4, 8] ('parlaklık,', 'hüzün') under the predicate 'ima'.
+[Line 691 Sent meh_ah_31]: [L3 SYNTAX obl-should-be-nmod] The parent (node [17] 'isyan') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1028 Sent nut_mk_50]: [L3 SYNTAX obl-should-be-nmod] The parent (node [44] 'kabulü') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1064 Sent nut_mk_45]: [L3 SYNTAX obl-should-be-nmod] The parent (node [6] 'müdafaa') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1221 Sent mus_ah_34]: [L3 SYNTAX too-many-objects] Multiple direct objects [16, 21] ('gece', 'gündüz') under the predicate 'olan'.
+[Line 1236 Sent mus_ah_2]: [L3 SYNTAX obl-should-be-nmod] The parent (node [2] 'kastımız') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1598 Sent jan_ae_46]: [L3 SYNTAX obl-should-be-nmod] The parent (node [11] 'lüzum') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+...suppressing further messages regarding ERROR/SYNTAX
+[Line 2831 Sent nes_tn_7]: [L3 WARNING fixed-without-extpos] Fixed expression 'kırmızı beyaz' does not have the 'ExtPos' feature
+[Line 6185 Sent nes_tn_3]: [L3 WARNING fixed-without-extpos] Fixed expression 'kırmızı beyaz' does not have the 'ExtPos' feature
+[Line 7836 Sent kad_am_18]: [L3 WARNING fixed-without-extpos] Fixed expression 'çalı çırpı' does not have the 'ExtPos' feature
+[Line 7840 Sent kad_am_18]: [L3 WARNING fixed-without-extpos] Fixed expression 'çalı çırpının' does not have the 'ExtPos' feature
+Warnings: 465
+SYNTAX errors: 42
+*** FAILED *** with 42 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang ota --max-err=10 UD_Ottoman_Turkish-BOUN/ota_boun-ud-train.conllu
-[Line 8 Sent nes_tn_33]: [L3 Warning pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 15 Sent nes_tn_33]: [L3 Warning pron-det-without-prontype] The word 'o' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 33 Sent nes_tn_33]: [L3 Warning pron-det-without-prontype] The word 'bu' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 47 Sent meh_ah_12]: [L3 Warning pron-det-without-prontype] The word 'bu' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 66 Sent meh_ah_63]: [L3 Warning pron-det-without-prontype] The word 'Bu' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 73 Sent meh_ah_63]: [L3 Warning pron-det-without-prontype] The word 'birkaç' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 77 Sent meh_ah_63]: [L3 Warning pron-det-without-prontype] The word 'o' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 82 Sent meh_ah_63]: [L3 Warning pron-det-without-prontype] The word 'o' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 138 Sent nut_mk_24]: [L3 Warning pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 155 Sent nut_mk_4]: [L3 Warning pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-[Line 210 Sent kad_am_23]: [L3 Syntax too-many-objects] Multiple direct objects [9, 18] ('şunu', 'hıçkırık') under the predicate 'bulursunuz'.
-[Line 1347 Sent jan_ae_34]: [L3 Syntax too-many-objects] Multiple direct objects [13, 22] ('ahvâlini', 'cümlesini') under the predicate 'tetkîk'.
-[Line 2079 Sent jan_ae_42]: [L3 Syntax too-many-objects] Multiple direct objects [4, 6] ('listesini', 'ekmeği') under the predicate 'getirdi'.
-Syntax errors: 3
-Warnings: 146
-*** FAILED *** with 3 errors
+[Line 8 Sent nes_tn_33]: [L3 WARNING pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 15 Sent nes_tn_33]: [L3 WARNING pron-det-without-prontype] The word 'o' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 33 Sent nes_tn_33]: [L3 WARNING pron-det-without-prontype] The word 'bu' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 47 Sent meh_ah_12]: [L3 WARNING pron-det-without-prontype] The word 'bu' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 66 Sent meh_ah_63]: [L3 WARNING pron-det-without-prontype] The word 'Bu' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 73 Sent meh_ah_63]: [L3 WARNING pron-det-without-prontype] The word 'birkaç' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 77 Sent meh_ah_63]: [L3 WARNING pron-det-without-prontype] The word 'o' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 82 Sent meh_ah_63]: [L3 WARNING pron-det-without-prontype] The word 'o' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 138 Sent nut_mk_24]: [L3 WARNING pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 155 Sent nut_mk_4]: [L3 WARNING pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 210 Sent kad_am_23]: [L3 SYNTAX too-many-objects] Multiple direct objects [9, 18] ('şunu', 'hıçkırık') under the predicate 'bulursunuz'.
+[Line 248 Sent ay_ah_11]: [L3 SYNTAX obl-should-be-nmod] The parent (node [11] 'ay') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 623 Sent jan_ae_115]: [L3 SYNTAX obl-should-be-nmod] The parent (node [9] 'teveccühü') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 737 Sent mus_ah_5]: [L3 SYNTAX obl-should-be-nmod] The parent (node [22] 'münasebetdar') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 739 Sent mus_ah_5]: [L3 WARNING fixed-without-extpos] Fixed expression 'az çok' does not have the 'ExtPos' feature
+[Line 741 Sent mus_ah_5]: [L3 SYNTAX obl-should-be-nmod] The parent (node [24] 'hesaba') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 744 Sent mus_ah_5]: [L3 SYNTAX obl-should-be-nmod] The parent (node [28] 'üzerinde') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1293 Sent nes_tn_39]: [L3 SYNTAX obl-should-be-nmod] The parent (node [29] 'ifşaya') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1347 Sent jan_ae_34]: [L3 SYNTAX too-many-objects] Multiple direct objects [13, 22] ('ahvâlini', 'cümlesini') under the predicate 'tetkîk'.
+[Line 1906 Sent nes_tn_15]: [L3 SYNTAX obl-should-be-nmod] The parent (node [26] 'terbiyeye') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1983 Sent meh_ah_110]: [L3 SYNTAX obl-should-be-nmod] The parent (node [4] 'karısı') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+...suppressing further messages regarding ERROR/SYNTAX
+Warnings: 131
+SYNTAX errors: 18
+*** FAILED *** with 18 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.111111111111111) * (score{features}=0.4) = 0.0444444444444444
